@@ -9,6 +9,7 @@ import { InteractiveComponent } from './components/interactive/interactive.compo
 import { Practice2Component } from './components/practice2/practice2.component';
 import { BasicHookComponent } from './components/basic-hook/basic-hook.component';
 import { AsyncAwaitComponent } from './components/async-await/async-await.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AsyncAwaitComponent } from './components/async-await/async-await.compon
     InteractiveComponent,
     Practice2Component,
     BasicHookComponent,
-    AsyncAwaitComponent
+    AsyncAwaitComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
